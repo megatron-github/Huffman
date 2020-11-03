@@ -1,3 +1,4 @@
+/* The code provided by Professor Alistair Campbell */
 
 template <typename T>
 priority_queue<T>::priority_queue(int (*cmp)(const T &, const T &))
