@@ -1,19 +1,15 @@
 /******************************************************************************
- *
- * Name:        Truong Pham
- *
- * Date:        5/9/19
- *
- * Assignment:  Compression.cc
- *
- * Description: Write a program that compress a given file by takes data from
- *   the file, combine the unicode of each characters in the data and turn
- *   them new unicode, then encodes them into a Huffman. Writes compressed
- *   file using the new founded unicode to standard output. The compress
- *   encoded file will be smaller than the original file, but still be able to
- *   decompressed and return the exact original file using the same Huffman
- *   tree.
- *
+  
+   Name:        Truong Pham
+
+   Description: Write a program that compress a given file by takes data from
+    		the file, combine the unicode of each characters in the data 
+		and turn them new unicode, then encodes them into a Huffman. 
+		Writes compressed file using the new founded unicode to standard 
+		output. The compress encoded file will be smaller than the 
+		original file, but still be able todecompressed and return the 
+		exact original file using the same Huffman tree.
+
  *****************************************************************************/
 #include <cassert>
 #include <iostream>
