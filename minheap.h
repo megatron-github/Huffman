@@ -1,17 +1,13 @@
 /******************************************************************************
- * Name:        Truong Pham
- *
- * Date:        5/9/19
- *
- * Assignment:  Compression.cc
- *
- * Description: Built a priority queue base min heap. The priority queue have
- *   to have properties of a min heap such as all data are stored in an array
- *   and is in the an increasing order as the indexing down the list. The
- *   priority queue allows user to build a queue, get the data at the front
- *   of the queue, size of the queue, add item to and remove item from the
- *   queue.
- *
+  File:  Compression.cc
+ 
+  Description: Built a priority queue base min heap. The priority queue have
+               to have properties of a min heap such as all data are stored 
+               in an array and is in the an increasing order as the indexing 
+               down the list. The priority queue allows user to build a queue, 
+               get the data at the front of the queue, size of the queue, add 
+               item to and remove item from the queue.
+ 
  *****************************************************************************/
 
 #ifndef PQ
