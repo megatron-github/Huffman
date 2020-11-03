@@ -1,3 +1,5 @@
+ /* The code provided by Professor Alistair Campbell */
+
 #ifndef PQ
 #define PQ
 
