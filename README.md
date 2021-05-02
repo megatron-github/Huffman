@@ -12,6 +12,7 @@ compress
   4. Write the overhead (source file length and tree) to the standard output
   5. Read the original file a second time, generating bits for each source character. When you have at least 8 bits, remove them, convert them to a character, and write to standard output.
   6. If you have any leftover bits, pad to a multiple of 8 bits, generate, and write the character.
+ 
 uncompress
   1. Read the overhead from the standard input
   2. Start at the root of the tree,
