@@ -1,10 +1,20 @@
-all: compress uncompress
+CC=g++
+SRC=$(PWD)/src
+BUILDDIR=$(PWD)/builds
+MKDIR_P = mkdir -p
 
-uncompress: compress
-	ln -s compress uncompress
+all: build_dir compress uncompress
 
-compress: compress.cc minheap.cc minheap.h
-	g++ -o compress compress.cc
+build_dir: $(BUILDDIR)
+
+$(BUILDDIR):
+	${MKDIR_P} $(BUILDDIR)
+
+uncompress: $(SRC)
+	ln -s $(BUILDDIR)/compress $(BUILDDIR)/uncompress
+
+compress: $(SRC)
+	g++ -o $(BUILDDIR)/compress $(SRC)/huffman.cc
 
 clean:
-	rm -f *~ compress uncompress *.o
+	rm -rf *~ $(BUILDDIR)
